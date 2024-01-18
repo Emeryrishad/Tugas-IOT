@@ -1,0 +1,42 @@
+1. Definisi dan Sejarah
+
+IoT adalah suatu konsep dimana objek yang memiliki kemampuan untuk mentransfer data melalui jaringan tanpa memerlukan interaksi manusia ke manusia atau manusia ke komputer.
+
+Teknologi Internet of Things (IoT) masih relatif baru, diusulkan oleh Kevin Ashton pada tahun 1999 sebagai judul presentasi untuk proyek sensor. Meskipun istilah ini muncul pada tahun 1999, konsep perangkat terhubung telah ada sejak 1832 dengan telegraf elektromagnetik. Sejarah IoT sebenarnya dimulai dengan penemuan Internet pada akhir 1960-an oleh J.C.R. Licklider di DARPA, yang kemudian berkembang menjadi ARPANET pada tahun 1969. Pada tahun 1980, ARPANET dikomersialkan, membuka jalan bagi internet. Perangkat IoT pertama ditemukan di Universitas Carnegie Melon pada awal 1980-an, di mana mahasiswa menciptakan mesin penjual otomatis Coca-Cola yang dapat melaporkan isinya melalui jaringan, mengoptimalkan pemakaian energi.
+
+2. Referensi Model
+
+A. Physical Device & Controller : Physical device & Controller terdiri dari 3 bagian, yaitu sebagai berikut:
+
+• Sensor. Dimana sensor dapat mengidentifikasikan bagian physic dari alam.
+
+• Embededed system. Minimum sistem atau pusat pemrosesan yang berukuran kecil dan dilengkapi dengan beberapa interface IO.
+
+• Gateway. Perangkat komunikasi yang menghubungkan perangkat physical dengan internet
+
+B. Connectivity : Connectivity adalah perangkat komunikasi yang menghubungkan antara perangkat fisik dan edge computing, bisa berupa 4G, Wifi, LoRA dan sebagainya.
+
+C. Edge Computing : Edge Computing Adalah layer yang berfungsi untuk menangkap data yang dikirimkan dari sensor. Pada layer ini data dipersiapkan untuk dapat disimpan pada suatu database.
+
+D. Data Accumulation : Data Accumulation adalah layer ini data yang telah sampai disimpan pada suatu storage. Dimana storage yang dapat digunakan bisa berupa SQL atau NoSQL base.
+
+E. Data Abstraction : Data Abstraction adalah layer yang berfungsi untuk mengatur aliran data di sisi server atau cloud, dimana data yang masuk akan diarahkan menuju ke tempat penyimpanan atau diarahkan ke tempat lain seperti visualisasi, machine learning atau lainnya.
+
+E. Application : Application adalah layer yang memiliki fungsi sebagai kontrol sistem, vertikal untuk mobile aplikasi dan juga Bisnis intelijen dan analisis. Dimana data diolah dengan machine learning untuk mendapatkan klasifikasi, cluster dan juga peramalan data.
+
+F. Collaboration & Prosess : Layer ini memberikan informasi kepada personal untuk dapat melakukan suatu hal berdasarkan data yang diterima. Proses bisa dilakukan sebagai feedback.
+
+3. Macam-Macam Kebutuhan
+
+• Sensor dan Perangkat Pendeteksi: Untuk mengumpulkan data dari lingkungan sekitar, seperti suhu, kelembaban, atau gerakan.
+
+• Koneksi Jaringan: Memastikan adanya koneksi yang stabil, baik melalui Wi-Fi, Bluetooth, atau teknologi jaringan lainnya.
+
+• Sistem Pengolahan Data: Untuk menganalisis dan mengelola data yang dikumpulkan oleh perangkat IoT.
+
+• Keamanan IoT: Melibatkan enkripsi data, perlindungan terhadap serangan siber, dan manajemen keamanan perangkat.
+
+• Daya dan Efisiensi Energi: Perangkat IoT perlu dirancang agar hemat energi untuk mendukung penggunaan jangka panjang.
+
+4. Implementasi dan Contoh
+salah satu contoh implementasi IoT adalah dalam sistem e-Tilang (tilang elektronik) yang mulai diterapkan di beberapa wilayah di Indonesia. Dalam sistem ini, terdapat kamera pengawas khusus yang sudah terhubung ke jaringan internet. Kamera tersebut sudah diintegrasikan dengan teknologi untuk mengidentifikasi dan merekam nomor plat kendaraan yang melanggar aturan lalu lintas. Jika terjadi pelanggaran, sistem akan mengirimkan pelaporan dan notifikasi secara otomatis.
